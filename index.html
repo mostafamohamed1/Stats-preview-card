@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="card">
+      <h1 class="sr-only">Stats preview card</h1>
+      <div class="card_content">
+        <h2 class="card_title">
+          Get <span>insights</span> that help your business grow.
+        </h2>
+        <p class="card_text">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="card_states">
+          <div class="card_state">
+            <strong>10k+</strong>
+            <span>companies</span>
+          </div>
+          <div class="card_state">
+            <strong>314</strong>
+            <span>templates</span>
+          </div>
+          <div class="card_state">
+            <strong>12m+</strong>
+            <span>queries</span>
+          </div>
+        </div>
+      </div>
+      <div class="card_img">
+        <picture>
+          <source
+            srcset="./images/image-header-mobile.jpg"
+            media="min-width: 1110px"
+          />
+          <img src="./images/image-header-desktop.jpg" alt="Hero Image" />
+        </picture>
+      </div>
+    </main>
+
+    <footer class="attr">
+      <div>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/mostafamohamed1">Mostafa Mohamed</a>.
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
